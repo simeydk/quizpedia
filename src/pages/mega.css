@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    border: none;
+    background: inherit;
+    cursor: pointer;
+}
+
+.page {
+    display:flex;
+    height: 100vh;
+    overflow:hidden;
+}
+
+.sidebar {
+    background: whitesmoke;
+    padding: 1rem;
+    min-width: 16em;
+    font-size: 14px;
+    overflow-y:scroll;
+}
+
+.main {
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+.sidebar-theme-title {
+    text-transform: uppercase;
+    color: #555;
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+}
+
+.sidebar-quiz-title {
+    line-height: 2;
+    margin-left: 2rem;
+    font-size: 14px;
+}
+
+.mega {
+    display:flex;
+    flex-direction: column;
+}
+
+.quiz {
+    margin-left:auto;
+    margin-right: auto;
+    padding: 1rem;
+    max-width: 800px;
+}
+
+.round-button-list {
+    padding: 5px;
+    display:flex;
+    overflow-x: scroll;
+}
+
+.round-button {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: lightgray;
+}
+
+.vert-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    margin-bottom: 0;
+
+}
+
+.copy-button {
+    background: gold;
+}
+
+.pretty {
+    color: #110c;
+    background: lightgoldenrodyellow;
+    padding: 2rem 3rem;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.question-li {
+    margin-bottom: 1em;
+    font-family: 'Georgia', 'Serif';
+}
+
+.question {
+    font-family: 'Georgia', 'Serif';
+}
+
+.answer {
+    font-family: 'Arial', 'Sans Serif';
+    color: #333;
+}
+.whatsapp {
+    background: white;
+    color: black;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    font-family: 'Cascadia Code', monospace;
+    margin: 10px;
+    border-radius: 10px;
+}
