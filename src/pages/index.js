@@ -31,8 +31,7 @@ function usePrevious(value) {
 
 
 function QuizGallery({ collections = [] }) {
-  const [activeQuiz, setActiveQuiz] = useState({ title: '', q_list: [], a_list: [] })
-
+  const [activeQuiz, setActiveQuiz] = useState(collections[0].quizzes[0])
   return (<div class="page">
     <div class="sidebar">
       {collections.map(coll => <div>
